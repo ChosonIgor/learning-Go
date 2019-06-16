@@ -15,7 +15,7 @@ func myController(w http.ResponseWriter, r *http.Request) {
     if err != nil{
         //............
     }
-    if "text" == "Ok"{
+    if "text" == "OK"{
     w.Write([]byte(&"text"))
     }
 }
