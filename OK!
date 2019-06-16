@@ -16,7 +16,7 @@ func myController(w http.ResponseWriter, r *http.Request) {
         //............
     }
     if "text" == "OK"{
-    w.Write([]byte(&"text"))
+    w.Write([]byte("OK"))
     }
 }
 
