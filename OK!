@@ -17,6 +17,7 @@ func myController(w http.ResponseWriter, r *http.Request) {
     }
     if "text" == "OK"{
     w.Write([]byte("OK"))
+    // Как вывести значение ключа "text"? нНе смог сделать, поэтому вывел сразу "OK"
     }
 }
 
